@@ -1,0 +1,30 @@
+
+ul{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0.25rem 0;
+    padding: 0.5rem 0 0.5rem 0.5rem;
+    
+}
+.ls-it{
+  list-style: none;
+  padding: 4px;
+}
+.ls-it>input{
+    margin-right: 8px;
+}
+.la{
+    text-align: center;
+    flex-grow: 1;
+}
+.icon{
+    margin-left: 8px;
+}
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
