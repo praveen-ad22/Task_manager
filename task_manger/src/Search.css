@@ -1,0 +1,26 @@
+.searchbox{
+    padding-top: 4px;
+    display: flex;
+    flex-direction: row;
+    gap: 39px;
+    width: 355.53px;
+    align-items: center;
+}
+
+.search{
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+     background-color: rgb(211, 216, 201);
+    color: rgb(16, 16, 16);
+}
+.bt{
+     display: flex;
+       align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 50px;
+}
+::placeholder{
+    padding-left: 10px;
+}

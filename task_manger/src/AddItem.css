@@ -1,0 +1,30 @@
+.container{
+    width: 355.53px;
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    gap: 20px;
+  
+}
+.bt{
+    display: flex;
+       align-items: center;
+    justify-content: center;
+    height: 30px;
+    width: 50px;
+}
+
+.text{
+    border: 1px solid black;
+    height: 30px;
+    width: 200px;
+    
+    background-color: rgb(211, 216, 201);
+    color: rgb(16, 16, 16);
+}
+::placeholder{
+    padding-left: 10px;
+}
+.bt :hover,.bt :focus{
+ background-color: green;
+}
